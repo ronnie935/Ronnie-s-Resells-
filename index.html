@@ -1,1 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ronnie's Resells</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #ffffff;
+      color: #000;
+    }
+    header {
+      background-color: #ffffff;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+      border-bottom: 1px solid #ddd;
+    }
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: #007a33;
+    }
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #000;
+      font-weight: 500;
+    }
+    .hero {
+      background-color: #007a33;
+      color: white;
+      text-align: center;
+      padding: 80px 20px;
+    }
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+    .hero p {
+      font-size: 24px;
+      margin-bottom: 30px;
+    }
+    .shop-button {
+      background-color: white;
+      color: #007a33;
+      padding: 12px 30px;
+      font-size: 18px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 40px;
+      padding: 60px 40px;
+      background-color: #f9f9f9;
+    }
+    .product {
+      text-align: center;
+    }
+    .product img {
+      width: 100%;
+      max-height: 250px;
+      object-fit: contain;
+    }
+    .product-name {
+      margin-top: 15px;
+      font-size: 18px;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">RONNIE’S RESELLS</div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Shop</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
 
+  <section class="hero">
+    <h1>RONNIE’S RESELLS</h1>
+    <p>YOU BUY AND WE SUPPLY</p>
+    <button class="shop-button">Shop Now</button>
+  </section>
+
+  <section class="products">
+    <div class="product">
+      <img src="https://via.placeholder.com/300x250?text=Jordan+1s" alt="Jordan 1s" />
+      <div class="product-name">Air Jordan 1 Retro</div>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/300x250?text=Beige+Bag" alt="Beige Bag" />
+      <div class="product-name">Beige Leather Handbag</div>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/300x250?text=Gold+Necklace" alt="Necklace" />
+      <div class="product-name">Gold Chain Necklace</div>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/300x250?text=Cream+Sweater" alt="Sweater" />
+      <div class="product-name">Cream Knit Sweater</div>
+    </div>
+  </section>
+</body>
+</html>
